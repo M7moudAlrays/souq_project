@@ -1,0 +1,342 @@
+body
+{
+	background-color: whitesmoke;
+}
+
+/* Start Header */
+.Header
+{
+	background-color:rgba(16, 58, 112, 0.534);
+	float: left;
+	width: 100% ;
+	margin-right: 10px;
+}
+.Lul
+{
+	float: left;
+}
+.Rul
+{
+	float: right ;
+}
+ul
+{
+	list-style-type:none;
+	padding-right: 5px;
+}
+ul li 
+{
+	display: inline-block;
+	padding: 0px 10px;
+}
+ul li a
+{
+	color: #fff ;
+	text-decoration: none ;
+}
+li.Right
+{
+	border-right: #fff solid 1px;
+}
+li.Right a
+{
+	font-weight: bold ;
+}
+/* End Header */
+
+/* Start Navbar */
+.clr
+{
+	clear: both;
+}
+.navbar
+{
+	 width: 100%;
+}
+
+.navbar *
+{
+	padding: 10px 10px; 
+	display: inline;
+	float: left;
+}
+.navbar input 
+{
+	width: 50%;
+	height: 20px;
+	margin-top:20px;
+	margin-left: 30px ;
+	border: 1px solid rgb(224, 213, 213);
+}
+.navbar .button 
+{
+	background-color: rgb(63, 63, 228) ;
+	margin-top:20px;
+	height: 42px;
+	width: 60px;
+} 
+
+
+.navbar a.lin
+{
+	color:#423f3f;
+	text-decoration: none ;
+	margin-top: 20px;
+	margin-left: 40px ;
+}
+
+/* End Navbar */
+
+/* Start Links */
+.links
+{
+	background-color:rgba(144, 175, 173, 0.568);
+	width: 100% ;
+	padding: 10px;
+	text-align: center;
+}
+.links a
+{
+	text-decoration: none ;
+	color: #000 ;
+	font-family: Tahoma ;
+	padding-right: 10px;
+}
+.links a span
+{
+	font-weight:bolder ;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* End Links */
+
+.FirstDiv
+{
+	width: 100%;
+}
+ .InternalOne
+{
+	float: left;
+	width: 75%;
+}
+.InternalOne div 
+{
+	overflow: hidden ;
+}
+.InternalOne img
+{
+	margin: 10px 13px 5px 13px;
+}
+
+
+
+ .InternalTwo
+{
+	float: left ;
+	width: 25%;
+}
+.InternalTwo div
+{
+	float: left;
+}
+.InternalTwo img
+{
+	margin: 7px  10px 9px 10px;
+	width: 100%;
+}
+
+ /* Start Second Div  */
+
+ .SecondDiv 
+ {
+	 width: 100%;
+	 padding: 10px 5px;
+	 text-align: center;
+ }
+ .SecondDiv div
+ {
+	 width: 100%;
+ }
+
+/* End Second Div  */
+
+ /* Start TV Div  */
+
+ .tv-div ,  .sho-div 
+ {
+	 background-color: rgb(13, 200, 53) ; 
+	 width: 100% ;
+	 margin: 15px 10px;
+	 border: 2px solid rgb(230, 218, 218) ;
+ }
+ .div-l-tv , .div-l-sho
+  {
+	  width: 48%;
+	  float: left;
+	  margin: 10px 11px ;
+  }
+ 
+  .div-l-tv img , .div-l-sho img 
+  {
+	  width: 100%;	
+  }
+ 
+ .div-r-tv , .div-r-sho
+  {
+	  width: 48%;
+	  float: left;
+	  margin: 12px 15px;
+  }
+ 
+  .div-r-tv .one-img ,
+  .div-r-sho .one-img 
+  {
+	  width: 47%;
+	  float: left;
+	  padding: 0px 13px 20px 5px;
+  }
+  
+  .div-r-tv .one-img  img  ,
+  .div-r-sho .one-img  img
+ {
+	 width: 100%;
+ }
+ .one-img 
+ {
+	text-align: center ;
+ }
+ .one-img a
+ {
+	 text-decoration: none ;
+	 color: #423f3f ;
+ }
+ 
+/* End TV Div  */
+
+/* Start Mill Div  */
+.Millcustomer
+{
+	width: 100% ;
+	text-align: center ;
+}
+.Millcustomer div
+{
+	padding: 10px;
+	width :100%;
+}
+
+/* End Mill Div  */
+/* Start Trending Div */
+.trend-div
+{
+	background-color:#fff ;
+	width: 100% ;
+}
+.one-seven
+{
+	
+	border-radius: 10%;
+	width:12% ;
+	height: 280px;
+	float: left;
+	background-color: #fff;
+	margin: 20px 5px;
+	padding: 10px;
+	
+}
+.one-seven div
+{
+	text-align: center;
+}
+.one-seven a
+{
+	text-decoration: none ;
+	color: rgb(22, 31, 158) ;
+	font-weight: bold ;
+}
+
+/* End Trending Div */
+
+/* Start Refrences */
+.ref
+{
+	background-color: rgb(212, 202, 202) ;
+	width: 100% ;
+	margin-top: 30px;
+}
+.one-four
+{
+	background-color:rgb(230, 230, 230); 
+	width: 23% ;
+	padding: 5px 6px 30px 20px;
+	height: 320px;
+	float: left;
+}
+.one-four p ,.one-four  h4
+{
+	font-weight: bold ;
+	text-transform: uppercase; 
+	font-size: 20px;
+}
+.one-four a
+{
+	text-decoration: none ;
+	color:rgb(36, 34, 34);
+	display: block ;
+	line-height: 20px;
+}
+.one-four .help
+{
+	background-color: #fff ;
+	text-align: center ;
+	padding: 5px;
+	color:rgb(36, 34, 34);
+	width: 80%;
+	margin-bottom: 10px;
+}
+.one-four .help p
+{
+	font-size: 12px;
+	line-height: 10px;
+	text-transform: none ;
+}
+.one-four .help h3
+{
+	color: rgb(52, 123, 255) ;
+}
+
+.one-four .follow a , .one-four .download a
+{
+	display: inline ;
+	padding-right: 10px;
+}
+/* End Refrences */
+
+/* Start Footer  Div  */
+.footer
+{
+	background-color: rgb(209, 202, 202) ;
+	width: 100% ;
+	padding-bottom: 10px;
+	float: left;
+}
+.footer span
+{
+	padding: 50px  ;
+	font-family: monospace ;
+	font-size:20px;
+	font-weight: bold;
+}
+
+ul .link-F 
+{
+	display: inline-block;
+	padding: 5px 5px 0px 10px;
+	border-right: rgba(21, 53, 141, 0.226) solid 2px;
+}
+.link-F a
+{
+	color: rgb(52, 123, 255) ;
+	text-decoration: none ;
+}
+/* End Footer  Div  */
